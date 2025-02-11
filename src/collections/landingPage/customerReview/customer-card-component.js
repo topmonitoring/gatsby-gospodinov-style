@@ -1,12 +1,11 @@
+import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 import styled from 'styled-components'
 
 const CustomerCard = () => {
     return (
     <StyledCard>
-      <div>Picture</div>
-      <div>Customer Name</div>    
-      <div>Rating or Discription</div>        
+      <StaticImage src="../../../../static/images/pick1.jpg" alt="picture of the interior" width={400}/>   
       </StyledCard>
     )
   }
@@ -15,7 +14,7 @@ const CustomerCard = () => {
   const StyledCard=styled.div`
   width: 300px;
   height: 200px;
-  background-color: white;
+  background-color: whitesmoke;
   margin: 40px;
   border-radius: 10px;
   padding: 5px;

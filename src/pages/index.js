@@ -4,14 +4,18 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+//import * as styles from "../components/index.module.css"
 import VideoBaground from "../components/video-bgr/videobgr.component"
 import PreviewCoursesFetures from "../collections/landingPage/preview-courses-explainer/preview-courses-explainer.component"
+import ReviewSection from "../collections/landingPage/customerReview/customer-review-component"
+import {TripleTitle} from '../components/theme/topography'
 
 const IndexPage = () => (
   <Layout>
 <VideoBaground/>
+<TripleTitle hed1={"Какво предлагаме"} hed2={"Нашите Услуги"} />
 <PreviewCoursesFetures/>
+<ReviewSection/>
   </Layout>
 )
 

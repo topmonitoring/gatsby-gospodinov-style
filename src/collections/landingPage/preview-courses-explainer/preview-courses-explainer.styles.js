@@ -27,7 +27,7 @@ border-left: 6px solid green;
   height: 300px;
   //position: absolute;
   left: 50%;
-  margin-left: -3px;
+  //margin-left: -10px;
   top: 0;
   @media screen and (max-width: 1080px) {
     display: none;
