@@ -6,10 +6,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import VideoBaground from "../components/video-bgr/videobgr.component"
+import PreviewCoursesFetures from "../collections/landingPage/preview-courses-explainer/preview-courses-explainer.component"
 
 const IndexPage = () => (
   <Layout>
 <VideoBaground/>
+<PreviewCoursesFetures/>
   </Layout>
 )
 

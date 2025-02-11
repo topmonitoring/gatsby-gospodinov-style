@@ -1,6 +1,11 @@
 import styled from 'styled-components'
 import {GatsbyImage} from 'gatsby-plugin-image'
-import { getBoxShadow,getBrandPurple,getGlobalForeground } from '../../../components/theme/colors'
+import { StaticImage } from "gatsby-plugin-image"
+
+export const CustomStaticImage = styled(StaticImage)`
+width: 400px;
+height: auto;
+`
 
 export const CourceGrid = styled.div`
   display: flex;
@@ -18,7 +23,7 @@ export const CourceGrid = styled.div`
 `
 
 export const VerticalLine=styled.div`
-border-left: 6px solid ${getBrandPurple};
+border-left: 6px solid green;
   height: 300px;
   //position: absolute;
   left: 50%;
@@ -39,7 +44,7 @@ display: flex;
 flex-direction: row;
 flex-direction: ${props => props.left ? "row" : "row-reverse"};
 span{
-    color: ${getGlobalForeground};
+    color: black;
     margin: 10px;
 }
 @media screen and (max-width: 1080px) {
@@ -55,10 +60,10 @@ margin: auto ;
 
 export const Feature = styled.h1`
 font-size: 35px;
-color: ${getGlobalForeground};
+color: black;
 `
 export const Img = styled(GatsbyImage)`
-background-color: ${getBrandPurple};
+background-color: green;
 width: 350px;
 height: 230px;
 margin: auto ;

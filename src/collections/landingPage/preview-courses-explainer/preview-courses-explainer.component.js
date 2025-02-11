@@ -1,59 +1,40 @@
 import React from 'react'
-import { CourceGrid, CourceCard, Img, Feature,FeatureContainer,VerticalLine } from './preview-courses-explainer.styles'
-import { graphql,useStaticQuery } from 'gatsby'
+import { CourceGrid, CourceCard, Img, Feature,FeatureContainer,VerticalLine,CustomStaticImage } from './preview-courses-explainer.styles'
 import { CustomButtonOuterLink } from '../../../components/buttons/CustomButton'
+import { StaticImage } from "gatsby-plugin-image"
 
 const PreviewCoursesFetures = () => {
-  const data=useStaticQuery(graphql`
-      query {
-        allContentfulCoursesLandingPage {
-          edges {
-            node {
-              feture1 {
-                gatsbyImageData
-              }
-              feture2 {
-                gatsbyImageData
-              }
-              feture3 {
-                gatsbyImageData
-              }
-            }
-          }
-        }
-      }
-    `)
-      const imageData = data.allContentfulCoursesLandingPage.edges[0].node
+  
     return(
     <CourceGrid>
     <CourceCard>
-      <Img image={imageData.feture1.gatsbyImageData}/>
+      <StaticImage src="../../../../static/images/pick1.jpg" alt="picture of the interior" width={400}/>
       <VerticalLine/>
       <FeatureContainer>
-      <Feature>The Game Plan</Feature>
-      <span>✅Create a Game plan with our Notion Templates & Tables</span>
-      <span>✅Define your Ideal Customer and his pain points</span>
-      <span>✅Use our Sales funnels & scripts to craft an compeling offer</span>
+      <Feature>Подстригване</Feature>
+      <span>✅Класическо подстригване</span>
+      <span>✅Подстригване тип Feid</span>
+      <span>✅Детско подстригване</span>
       </FeatureContainer>
     </CourceCard>
     <CourceCard left>
-      <Img image={imageData.feture2.gatsbyImageData}/>
+    <StaticImage src="../../../../static/images/pick2.jpg" alt="picture of the interior" width={400}/>
       <VerticalLine/>
       <FeatureContainer>
-      <Feature>The Skills Game</Feature>
-      <span>✅Learn how to sell & build offers</span>
-      <span>✅Automate as meny business procesess as you can</span>
-      <span>✅Improve skills you need to focus on, to maximize your income</span>
+      <Feature>Бръснене</Feature>
+      <span>✅Оформяне на брада</span>
+      <span>✅Бръснене на брада</span>
+      <span>✅Кралско Бръснене</span>
       </FeatureContainer>
     </CourceCard>
     <CourceCard>
-      <Img image={imageData.feture3.gatsbyImageData}/>
+    <StaticImage src="../../../../static/images/pick3.jpg" alt="picture of the interior" width={400}/>
       <VerticalLine/>
       <FeatureContainer>
-      <Feature>The Content Game</Feature>
-      <span>✅Learn how to make quality content</span>
-      <span>✅Learn how to destribute your content efficently</span>
-      <span>✅Learn how to hire people to work with you</span>
+      <Feature>Процедури</Feature>
+      <span>✅Оформяне на вежди</span>
+      <span>✅Кола маска уши или нос</span>
+      <span>✅Маска за лице</span>
       </FeatureContainer>
     </CourceCard>
     <CustomButtonOuterLink href={"https://www.skool.com/"}>Запази час</CustomButtonOuterLink>
