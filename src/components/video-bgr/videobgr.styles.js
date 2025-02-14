@@ -101,6 +101,7 @@ export const StyledH1=styled.h1`
     font-size: 42px;
     max-width: 660px;
     grid-area: hed1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 `
 export const StyledP=styled.p`
     font-weight: unset;

@@ -2,7 +2,7 @@ import styled,{keyframes} from 'styled-components'
 import { Link } from 'gatsby'
 
 
-export const getBrandPurple ="green"
+export const getBrandPurple ="red"
 
 export const ButonContainer = styled.div`
 display: flex;

@@ -1,7 +1,7 @@
 import React from 'react';
-import Video from '../../../static/videoBGR.mp4'
+import Video from '../../../static/VideoBGR001.mp4'
 import { StyledVideo, HederOverlay,StyledLine,HederTextContainer,StyledH1,StyledP,ButonContainer} from './videobgr.styles';
-import {CustomButtonNoLink,CustomButtonInerLink} from '../buttons/CustomButton';
+import {CustomButtonNoLink,CustomButtonInerLink,CustomButtonOuterLink} from '../buttons/CustomButton';
 //import {ButonContainer} from '../buttons/CustomButtonStyles';
 //import {StrongWord} from "../theme/topography";
 
@@ -16,7 +16,7 @@ const VideoBaground = () => {
           loop
           playsInline
           preload="auto"
-          width="1800"
+          width="800"
           height="900"
         >
           <source
@@ -27,12 +27,12 @@ const VideoBaground = () => {
       </StyledVideo>
       <HederOverlay>
       <HederTextContainer>
-      <StyledH1>Бръснарница <b>Gospodinov Style</b></StyledH1>
-      <StyledP>За нас постригването не е просто процедура а цяло изживяване</StyledP>     
+      <StyledH1>Studio Gospodinov Style</StyledH1>
+      <StyledP>При нас подстригването не е просто процедура а цяло изживяване !</StyledP>     
       <ButonContainer>
-      <CustomButtonInerLink to={'/newsletter'}>запази час</CustomButtonInerLink>
+      <CustomButtonOuterLink href={'https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395'}>запази час</CustomButtonOuterLink>
       {/**<CustomModal buttonValue={"Free Blueprint"}>hello world</CustomModal>**/}
-      <CustomButtonInerLink secondary to={'/about'}>научи повече</CustomButtonInerLink>
+      
       </ButonContainer>
       
       </HederTextContainer>

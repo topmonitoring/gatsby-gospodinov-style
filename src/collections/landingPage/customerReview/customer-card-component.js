@@ -2,7 +2,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 import styled from 'styled-components'
 
-const CustomerCard = () => {
+const CustomerCard = (StaticImgRelativePath) => {
     return (
     <StyledCard>
       <StaticImage src="../../../../static/images/pick1.jpg" alt="picture of the interior" width={400}/>   
