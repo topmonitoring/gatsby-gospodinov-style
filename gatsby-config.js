@@ -13,6 +13,16 @@ module.exports = {
     description: `Бръснарница Gospodinov Style Град Пловдив улица „Златю Бояджиев“ 3, Северен, Кършияка, За нас постригването не е просто процедура а цяло изживяване `,
     author: `@Dobrin Dobrev`,
     siteUrl: `https://gospodinovstyle.com/`,
+    keywords: [
+      'Gospodinov Style',
+      'бръснарница',
+      'Пловдив',
+      'Бръснарница в Пловдиж',
+      'Мъжко подстригване',
+      'Петър Господинов',
+      'gospodinovstyle',
+      'господинов',
+    ],
   },
   plugins: [
     `gatsby-plugin-image`,
