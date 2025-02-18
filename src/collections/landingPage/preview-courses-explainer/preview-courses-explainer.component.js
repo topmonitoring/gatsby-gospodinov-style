@@ -8,17 +8,17 @@ const PreviewCoursesFetures = () => {
     return(
     <CourceGrid>
     <CourceCard>
-      <StaticImage src="../../../../static/images/pick33.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"10px"}}/>
+      <StaticImage src="../../../../static/images/pick33.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px"}}/>
      
       <FeatureContainer>
       <Feature>Подстригване</Feature>
       <span>✅Класическо подстригване</span>
-      <span>✅Подстригване тип Feid</span>
+      <span>✅Подстригване тип Fade</span>
       <span>✅Детско подстригване</span>
       </FeatureContainer>
     </CourceCard>
     <CourceCard left>
-    <StaticImage src="../../../../static/images/pick02.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"10px"}}/>
+    <StaticImage src="../../../../static/images/pick02.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px"}}/>
       
       <FeatureContainer>
       <Feature>Брада</Feature>
@@ -27,7 +27,7 @@ const PreviewCoursesFetures = () => {
       </FeatureContainer>
     </CourceCard>
     <CourceCard>
-    <StaticImage src="../../../../static/images/pick03.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"10px"}}/>
+    <StaticImage src="../../../../static/images/pick03.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px"}}/>
       
       <FeatureContainer>
       <Feature>Процедури</Feature>

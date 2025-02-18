@@ -17,6 +17,7 @@ font-size: 22px;
 `
 
 export const StyledH3= styled.h3`
+color: rgb(39, 55, 77);
  margin: auto;
  text-align: center;
  text-transform: uppercase;
@@ -27,6 +28,7 @@ export const StyledH3= styled.h3`
     }
 `
 export const StyledH2= styled.h2`
+color: rgb(39, 55, 77);
     margin: auto;
     text-align: center;
     line-height: 1.2em;
@@ -38,6 +40,7 @@ export const StyledH2= styled.h2`
     }
 `
 export const StyledH1= styled.h1`
+color: rgb(39, 55, 77);
 font-family: Playfair Display, sans-serif;
 background-image: linear-gradient(45deg, #a163f1, #6363f1 22%, #3498ea 40%, #40dfa3 67%, rgba(64, 223, 163, 0));
     background-size: 150% 100%;

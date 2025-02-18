@@ -31,11 +31,12 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
+            textAlign:`center`
           }}
         >
           © {new Date().getFullYear()} &middot;
           {` `}
-          <a href="https://www.gatsbyjs.com">Gospodinov Style</a>
+          <a href="https://gospodinovstyle.com/">Gospodinov Style</a>
         </footer>
       
     </>
