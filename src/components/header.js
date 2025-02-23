@@ -75,27 +75,3 @@ const FlexContainer = styled.div`
     }
 `
 
-const BurgerWrapper = styled.div`
-  margin: auto 0;
-
-  @media (min-width: 1030px) {
-    display: none;
-  }
-`
-const NavLinks = styled.div`
-  //justify-self: end;
-  list-style-type: none;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  text-align: center;
-  div {
-    text-align: center;
-    padding: 10px;
-  }
-
-  @media (max-width: 1030px) {
-    display: none;
-  }
-`

@@ -1,4 +1,3 @@
-import style from 'styled-theming'
 import theme from 'styled-theming'
 import { Colors } from './globalStyles'
 

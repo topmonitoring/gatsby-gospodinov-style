@@ -1,6 +1,5 @@
 import React from 'react'
-import { CourceGrid, CourceCard, Img, Feature,FeatureContainer,VerticalLine,CustomStaticImage } from './preview-courses-explainer.styles'
-import { CustomButtonOuterLink } from '../../../components/buttons/CustomButton'
+import { CourceGrid, CourceCard,Feature,FeatureContainer,VerticalLine} from './preview-courses-explainer.styles'
 import { StaticImage } from "gatsby-plugin-image"
 
 const PreviewCoursesFetures = () => {
@@ -8,8 +7,8 @@ const PreviewCoursesFetures = () => {
     return(
     <CourceGrid>
     <CourceCard>
-      <StaticImage src="../../../../static/images/pick33.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px"}}/>
-     
+      <StaticImage src="../../../../static/images/pick33.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px" }}/>
+      <VerticalLine/>
       <FeatureContainer>
       <Feature>Подстригване</Feature>
       <span>✅Класическо подстригване</span>
@@ -19,7 +18,7 @@ const PreviewCoursesFetures = () => {
     </CourceCard>
     <CourceCard left>
     <StaticImage src="../../../../static/images/pick02.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px"}}/>
-      
+    <VerticalLine/>
       <FeatureContainer>
       <Feature>Брада</Feature>
       <span>✅Оформяне на брада</span>
@@ -28,7 +27,7 @@ const PreviewCoursesFetures = () => {
     </CourceCard>
     <CourceCard>
     <StaticImage src="../../../../static/images/pick03.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px"}}/>
-      
+    <VerticalLine/>
       <FeatureContainer>
       <Feature>Процедури</Feature>
       <span>✅Оформяне на вежди</span>
@@ -38,7 +37,6 @@ const PreviewCoursesFetures = () => {
       <span>✅Прилагане на продукти от висок клас</span>
       </FeatureContainer>
     </CourceCard>
-    <CustomButtonOuterLink href={"https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395"}>Запази час</CustomButtonOuterLink>
     </CourceGrid>
   )
 }

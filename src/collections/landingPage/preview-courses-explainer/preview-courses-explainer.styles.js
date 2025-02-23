@@ -23,11 +23,11 @@ export const CourceGrid = styled.div`
 `
 
 export const VerticalLine=styled.div`
-border-left: 6px solid green;
-  height: 300px;
+border-left: 6px solid black;
+  height: 400px;
   //position: absolute;
   left: 50%;
-  //margin-left: -10px;
+  margin: 0px 40px;
   top: 0;
   @media screen and (max-width: 1080px) {
     display: none;
@@ -54,17 +54,18 @@ span{
 export const FeatureContainer = styled.div`
 display: flex;
 flex-direction: column;
-width: 350px;
-margin: auto ;
+width: 400px;
+margin: 0px 0px auto ;
 `
 
 export const Feature = styled.h1`
 font-size: 35px;
 color: black;
+padding: 20px;
 `
 export const Img = styled(GatsbyImage)`
 background-color: green;
-width: 350px;
+width: 400px;
 height: 230px;
 margin: auto ;
 border-radius: 10px;
