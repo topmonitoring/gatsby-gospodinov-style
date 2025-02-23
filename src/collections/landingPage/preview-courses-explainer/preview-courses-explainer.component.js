@@ -7,13 +7,13 @@ const PreviewCoursesFetures = () => {
     return(
     <CourceGrid>
     <CourceCard>
-      <StaticImage src="../../../../static/images/pick33.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px" }}/>
+      <StaticImage src="../../../../static/images/pick33.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"20px"}}/>
       <VerticalLine/>
       <FeatureContainer>
       <Feature>Подстригване</Feature>
       <span>✅Класическо подстригване</span>
-      <span>✅Подстригване тип Fade</span>
       <span>✅Детско подстригване</span>
+      <span>✅Подстригване тип Fade</span>
       </FeatureContainer>
     </CourceCard>
     <CourceCard left>
@@ -21,6 +21,7 @@ const PreviewCoursesFetures = () => {
     <VerticalLine/>
       <FeatureContainer>
       <Feature>Брада</Feature>
+      <span>✅Бръснене</span>
       <span>✅Оформяне на брада</span>
       <span>✅Кралско Бръснене</span>
       </FeatureContainer>
@@ -33,8 +34,8 @@ const PreviewCoursesFetures = () => {
       <span>✅Оформяне на вежди</span>
       <span>✅Кола маска уши/нос</span>
       <span>✅Маска за лице</span>
-      <span>✅Измиване на коса</span>
-      <span>✅Прилагане на продукти от висок клас</span>
+      <span>✅Измиване и исушаване</span>
+      <span>✅Прилагане на висок клас продукти</span>
       </FeatureContainer>
     </CourceCard>
     </CourceGrid>

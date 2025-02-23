@@ -10,6 +10,23 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import styled from "styled-components"
+
+export const StyledFooter=styled.footer`
+align-content: center;
+width: 100%;
+height: 50px;
+background-color: rgb(157, 178, 191);
+opacity: 90%;
+text-align: center;
+a{
+  color: black;
+}
+a:hover
+  {
+    color: red;
+  }
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,20 +44,19 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
-            textAlign:`center`
-          }}
-        >
+        <StyledFooter>
+          
+          Copyright
           © {new Date().getFullYear()} &middot;
           {` `}
-          <a href="https://gospodinovstyle.com/">Gospodinov Style</a>
-        </footer>
+          Всички права запазени
+          {` `}
+          <a href="https://gospodinovstyle.com/">Gospodinov Style</a>✂️
+        </StyledFooter>
       
     </>
   )
 }
 
 export default Layout
+
