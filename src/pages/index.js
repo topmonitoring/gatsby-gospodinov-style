@@ -7,6 +7,7 @@ import PreviewCoursesFetures from "../collections/landingPage/preview-courses-ex
 import ReviewSection from "../collections/landingPage/customerReview/customer-review-component"
 import {TripleTitle} from '../components/theme/topography'
 import { useStaticQuery,graphql  } from "gatsby"
+import {MyMap} from "../components/googlemap/googlemap.component"
 
 const IndexPage = () => {
 return (
@@ -15,6 +16,8 @@ return (
 <TripleTitle hed1={"Какво предлагаме"} hed2={"Нашите Услуги"} />
 <PreviewCoursesFetures/>
 <ReviewSection/>
+<TripleTitle hed1={"Заповядайте при нас"} hed2={"Златю Бояджиев №3"} />
+<MyMap/>
   </Layout>
 )}
 

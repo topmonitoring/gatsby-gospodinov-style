@@ -1,0 +1,34 @@
+import React from 'react'
+import styled from 'styled-components'
+
+export const MyMap=()=>(
+    <>
+    <MapBody>
+        <MapCanvas>
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=gospodinov%20style&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
+                <br/>
+                
+                <a href="https://www.embedgooglemap.net">
+                    </a>
+                    
+                    </MapCanvas>
+                    </MapBody>
+                    </>
+)
+
+export const MapBody = styled.div`
+align-content: center;
+`
+export const MapCanvas = styled.div`
+align-content: center;
+iframe{
+    margin: auto;
+    display: block;
+    width:600px;
+    height:400px ;
+    @media screen and (max-width: 1080px) {
+    width: 90%;
+    }
+}
+`
