@@ -1,5 +1,4 @@
 import React from "react";
-import CustomerCard from "./customer-card-component";
 import Marquee from "react-fast-marquee";
 import styled from 'styled-components'
 import {TripleTitle} from '../../../components/theme/topography'
@@ -7,14 +6,14 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const ReviewSection = () => (
   <>
-  <TripleTitle hed1={"Какво казват"} hed2={"Нашите клиенти"} />
+  <TripleTitle hed1={"Какво казват"} hed2={"Нашите клиенти"}/>
     <StyledSection>
   <Marquee gradient gradientColor='rgb(16, 18, 23)'>
   <StyledCard>
-  <StaticImage src={"../../../../static/customers/customer1.jpg"} alt="picture " width={400} height={300} style={{borderRadius:"5px"}}/>
+  <StaticImage src={"../../../../static/customers/customer1.jpg"} alt="picture of customer" width={400} height={300} style={{borderRadius:"5px"}}/>
   </StyledCard>
   <StyledCard>
-  <StaticImage src={"../../../../static/customers/customer2.jpg"} alt="picture of the interior" width={400} height={300} style={{borderRadius:"5px"}}/>
+  <StaticImage src={"../../../../static/customers/customer2.jpg"} alt="picture of customer" width={400} height={300} style={{borderRadius:"5px"}}/>
   </StyledCard>
   <StyledCard>
   <StaticImage src={"../../../../static/customers/customer3.jpg"} alt="picture of the interior" width={400} height={300} style={{borderRadius:"5px"}}/>

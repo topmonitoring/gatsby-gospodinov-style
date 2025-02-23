@@ -9,22 +9,12 @@ import {TripleTitle} from '../components/theme/topography'
 import { useStaticQuery,graphql  } from "gatsby"
 
 const IndexPage = () => {
- const Mykeywords = useStaticQuery(graphql`
-    query HeaderQuery {
-      site {
-        siteMetadata {
-          keywords
-        }
-      }
-    }
-  `)
 return (
   <Layout>
 <VideoBaground/>
 <TripleTitle hed1={"Какво предлагаме"} hed2={"Нашите Услуги"} />
 <PreviewCoursesFetures/>
 <ReviewSection/>
-{console.log(Mykeywords.site.siteMetadata.keywords[0])}
   </Layout>
 )}
 
@@ -34,6 +24,16 @@ return (
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
 //export const Head = () => <Seo keywords={Mykeywords.site.siteMetadata.keywords[0]} />
-export const Head = () => <Seo keywords={"Gospodinov Style,Петър Господинов"} />
+export const Head = (props) => <Seo title={"Начало"} keywords={props.data.site.siteMetadata.keywords} />
 
 export default IndexPage
+
+export const pageQuery = graphql`
+query HeaderQuery {
+  site {
+    siteMetadata {
+      keywords
+    }
+  }
+}
+`
