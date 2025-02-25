@@ -62,6 +62,7 @@ export const Feature = styled.h1`
 font-size: 35px;
 color: black;
 padding: 20px;
+text-align: center;
 `
 export const Img = styled(GatsbyImage)`
 background-color: green;

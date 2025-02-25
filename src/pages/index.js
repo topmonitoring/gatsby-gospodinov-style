@@ -9,6 +9,7 @@ import {TripleTitle} from '../components/theme/topography'
 import { graphql  } from "gatsby"
 import {MyMap} from "../components/googlemap/googlemap.component"
 import { CustomButtonOuterLink } from '../components/buttons/CustomButton'
+import {About} from '../components/about/about.component'
 
 const IndexPage = () => {
 return (
@@ -16,6 +17,9 @@ return (
 <VideoBaground/>
 <TripleTitle hed1={"Какво предлагаме"} hed2={"Нашите Услуги"} />
 <PreviewCoursesFetures/>
+<CustomButtonOuterLink href={"https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395"}>Запази час</CustomButtonOuterLink>
+<TripleTitle hed1={"Повече за нас"} hed2={"Петър Господинов"} />
+<About/>
 <CustomButtonOuterLink href={"https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395"}>Запази час</CustomButtonOuterLink>
 <ReviewSection/>
 <TripleTitle hed1={"Заповядайте при нас"} hed2={"Златю Бояджиев №3"} />
