@@ -10,11 +10,13 @@ import { graphql  } from "gatsby"
 import {MyMap} from "../components/googlemap/googlemap.component"
 import { CustomButtonOuterLink } from '../components/buttons/CustomButton'
 import {About} from '../components/about/about.component'
+import {BrandLogos} from '../components/brands/brand.component'
 
 const IndexPage = () => {
 return (
   <Layout>
 <VideoBaground/>
+<BrandLogos/>
 <TripleTitle hed1={"Какво предлагаме"} hed2={"Нашите Услуги"} />
 <PreviewCoursesFetures/>
 <CustomButtonOuterLink href={"https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395"}>Запази час</CustomButtonOuterLink>
