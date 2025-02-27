@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
 import React from 'react'
-import { SocialIcons } from "../../components/social-links/social-links.component"
 
 export const About = () =>(
 <StyledAboutSection>
@@ -14,7 +13,6 @@ export const About = () =>(
         <br/>Това беше трудна задача , но ето след много курсове , много мислене и много работа 20.04.2024 година успях да създам това място където не само ще излезете с перфектната визия , а ще излезете отпочинали , изслушани и релаксирали .<br/>
         <br/> <b>Благодарим ви ,че избрахте Gospodinov Style ! При нас подстригването не е просто процедура , а цяло изживяване !</b></StyledAboutinfo>
     </StyledAboutGrid>
-    <SocialIcons/>
     <br/>
 </StyledAboutSection>
 )

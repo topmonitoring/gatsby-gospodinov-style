@@ -26,7 +26,6 @@ text-align: center;
   
   svg {
     transition: all 0.4s ease-in-out;
-    
   }
  
 `
