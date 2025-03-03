@@ -16,6 +16,7 @@ const Navbar = props => {
           <StaticImage src="../../static/images/logo2.jpg" alt="logo image" style={{width:"45px",height:"45px"}}/>
           
           </StyledLogoLink>
+          
           <StyledBrandName>Gospodinov Style</StyledBrandName>
 
 

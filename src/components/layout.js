@@ -39,14 +39,15 @@ const Layout = ({ children }) => {
             </div>
             <div>
             <h1>Локация</h1>
-            град Пловдив
+            гр.Пловдив
             <br/>
             ул.Златю Бояджиев №3
             </div>
             <div>
             <h1>Контакти</h1>
-            <SocialIcons/>
             ☎️<a href="tel:+359 883353591">+359 883353591</a>
+            <SocialIcons/>
+            
             </div>
           </StyledFooterContainer>
           Copyright

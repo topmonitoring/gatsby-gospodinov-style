@@ -1,7 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import styled from 'styled-components'
-import {TripleTitle} from '../../../components/theme/topography'
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
@@ -21,8 +20,6 @@ query MyQuery {
 }
 `)
   return(
-  <>
-  <TripleTitle hed1={"Какво казват"} hed2={"Нашите клиенти"}/>
     <StyledSection>
   <Marquee  gradient gradientColor='rgb(16, 18, 23)' pauseOnHover>
 
@@ -71,9 +68,7 @@ query MyQuery {
   <StyledGatsbyImg image={getImage(customerArr.allFile.edges[13].node.childImageSharp.gatsbyImageData)} alt={customerArr.allFile.edges[13].node.name} />
   </StyledCard>
   </Marquee>
-  </StyledSection>
-  </>
-  
+  </StyledSection>  
 );
   }
 export default ReviewSection;

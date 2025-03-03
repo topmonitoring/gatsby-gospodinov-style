@@ -11,6 +11,7 @@ import {MyMap} from "../components/googlemap/googlemap.component"
 import { CustomButtonOuterLink } from '../components/buttons/CustomButton'
 import {About} from '../components/about/about.component'
 import {BrandLogos} from '../components/brands/brand.component'
+import {FAQSection} from '../components/FAQ-section/faq.component'
 
 const IndexPage = () => {
 return (
@@ -23,7 +24,10 @@ return (
 <TripleTitle hed1={"Повече за нас"} hed2={"Петър Господинов"} />
 <About/>
 <CustomButtonOuterLink href={"https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395"}>Запази час</CustomButtonOuterLink>
+<TripleTitle hed1={"Хора който ни се довериха"} hed2={"Нашите Kлиенти"}/>
 <ReviewSection/>
+<TripleTitle hed1={"Научи повече"} hed2={"Често задавани въпроси"} />
+<FAQSection/>
 <TripleTitle hed1={"Заповядайте при нас"} hed2={"Златю Бояджиев №3"} />
 <MyMap/>
 <CustomButtonOuterLink href={"https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395"}>Запази час</CustomButtonOuterLink>
