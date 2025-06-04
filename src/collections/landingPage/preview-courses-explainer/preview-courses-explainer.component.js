@@ -34,7 +34,7 @@ const PreviewCoursesFetures = () => {
       <span>✅Оформяне на вежди</span>
       <span>✅Кола маска уши/нос</span>
       <span>✅Маска за лице</span>
-      <span>✅Измиване и исушаване</span>
+      <span>✅Измиване и изсушаване</span>
       <span>✅Прилагане на висок клас продукти</span>
       </FeatureContainer>
     </CourceCard>

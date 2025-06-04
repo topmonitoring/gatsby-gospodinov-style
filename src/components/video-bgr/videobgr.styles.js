@@ -38,7 +38,7 @@ export const StyledVideo = styled.div`
 
 export const StrongWord = styled.b`
   //font-size:50px;
-  color: rgb(102, 155, 188);
+  color: red;
   
 `;
 

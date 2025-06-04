@@ -13,7 +13,7 @@ const Navbar = props => {
         <FlexContainer>
         <StyledLogoLink to="/" style={{margin:"auto 0px"}}>
 
-          <StaticImage src="../../static/images/logo2.jpg" alt="logo image" style={{width:"45px",height:"45px"}}/>
+          <StaticImage src="../../static/images/logo2.jpg" alt="logo image" style={{width:"60px",height:"60px"}}/>
           
           </StyledLogoLink>
           
@@ -32,7 +32,7 @@ export default Navbar
 const StyledLogoLink=styled(Link)`
 text-decoration: none;
 text-align: center;
-line-height: 45px;
+line-height: 60px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: ${getGlobalForeground};
 ` 
@@ -72,7 +72,7 @@ const FlexContainer = styled.div`
     }
   }
   @media screen and (max-width: 1215px) {
-    padding: 10px;
+    padding: 5px;
     }
 `
 

@@ -24,7 +24,7 @@ return (
 <TripleTitle hed1={"Повече за нас"} hed2={"Петър Господинов"} />
 <About/>
 <CustomButtonOuterLink href={"https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395"}>Запази час</CustomButtonOuterLink>
-<TripleTitle hed1={"Хора който ни се довериха"} hed2={"Нашите Kлиенти"}/>
+<TripleTitle hed1={"Хора които ни се довериха"} hed2={"Нашите Kлиенти"}/>
 <ReviewSection/>
 <TripleTitle hed1={"Научи повече"} hed2={"Често задавани въпроси"} />
 <FAQSection/>
