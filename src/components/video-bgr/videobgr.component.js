@@ -29,7 +29,7 @@ const VideoBaground = () => {
       <StyledH1>Студио <StrongWord>Gospodinov Style</StrongWord></StyledH1>
       <StyledP>При нас подстригването не е просто процедура, а цяло изживяване !</StyledP>     
       <ButonContainer>
-      <CustomButtonOuterLink href={'https://www.fresha.com/p/petr-gospodinov-4498103?share&pId=1473395'}>Запази час</CustomButtonOuterLink>
+      <CustomButtonOuterLink href={'https://www.fresha.com/bg/a/gospodinov-style-plovdiv-ulica-zlatyu-boyadzhiev-3-yfyc8w9e?pId=1473395'}>Запази час</CustomButtonOuterLink>
       {/**<CustomModal buttonValue={"Free Blueprint"}>hello world</CustomModal>**/}
       
       </ButonContainer>

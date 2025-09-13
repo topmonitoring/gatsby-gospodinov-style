@@ -1,24 +1,40 @@
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
 import React from 'react'
+import {TripleTitle} from '../../components/theme/topography'
 
 export const About = () =>(
 <StyledAboutSection>
+  <br/>
+<TripleTitle hed2="Петър Господинов"></TripleTitle>
     <StyledAboutGrid>
-    <StaticImage src="../../../static/aboutImg.jpg" alt="picture of the interior" width={400} height={400} style={{borderRadius:"900px",margin:"25px"}}/>
+    <StaticImage src="../../../static/aboutImg.jpg" alt="peofile pick Petur" width={400} height={400} style={{borderRadius:"900px",margin:"25px"}}/>
     <StyledAboutinfo>Аз съм Петър Господинов от Пловдив, роден 1997 година, основател и собственик на Gospodinov Style .
     <br/>
         <br/> Една моя 10-годишна мечта превърната в реалност .<br/>
         <br/> Идеята ми беше да комбинирам хубавата мъжка визия , уюта , удобството , професионализма , старите традиции в бръснарски услуги . <br/>
         <br/>Това беше трудна задача , но ето след много курсове , много мислене и много работа на 20.04.2024 успях да създам това място, където не само ще излезете с перфектната визия , а и отпочинали , изслушани и релаксирали .<br/>
-        <br/> <b>Благодарим ви ,че избрахте Gospodinov Style ! При нас подстригването не е просто процедура , а цяло изживяване !</b></StyledAboutinfo>
+        <br/> 
+        </StyledAboutinfo>
     </StyledAboutGrid>
     <br/>
+    <br/>
+<TripleTitle hed2="Надя Станкова"></TripleTitle>
+    <StyledAboutGrid>
+    <StyledAboutinfo>
+        <br/>Аз съм Надя Станкова от Пловдив, родена 1988 година, бръснар в Gospodinov Style .<br/>
+        <br/> С дългогодишен стаж в  бръснарския занаят .<br/>
+        <br/> </StyledAboutinfo>
+        <StaticImage src="../../../static/aboutImg2.jpg" alt="peofile pick Nadia" width={400} height={400} style={{borderRadius:"900px",margin:"25px"}}/>
+    </StyledAboutGrid>
+    <br/>
+    <StyledAboutinfo><b>Благодарим ви ,че избрахте Gospodinov Style ! При нас подстригването не е просто процедура , а цяло изживяване !</b></StyledAboutinfo>
+    
 </StyledAboutSection>
 )
 
 export const StyledAboutinfo = styled.div`
-padding: 15px;
+padding: 35px;
 font-size: 18px;
 width: 60%;
 margin: auto;
