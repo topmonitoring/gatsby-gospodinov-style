@@ -25,7 +25,7 @@ export const About = () =>(
         <br/>Аз съм Надя Станкова от Пловдив, родена 1988 година, бръснар в Gospodinov Style .<br/>
         <br/> С дългогодишен стаж в  бръснарския занаят .<br/>
         <br/> </StyledAboutinfo>
-        <StaticImage src="../../../static/aboutImg2.jpg" alt="peofile pick Nadia" width={400} height={400} style={{borderRadius:"900px",margin:"25px"}}/>
+        <StaticImage src="../../../static/aboutImg3.jpg" alt="peofile pick Nadia" width={400} height={400} style={{borderRadius:"900px",margin:"25px"}}/>
     </StyledAboutGrid>
     <br/>
     <StyledAboutinfo><b>Благодарим ви ,че избрахте Gospodinov Style ! При нас подстригването не е просто процедура , а цяло изживяване !</b></StyledAboutinfo>
