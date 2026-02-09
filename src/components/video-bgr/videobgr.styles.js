@@ -45,7 +45,7 @@ export const StrongWord = styled.b`
 export const HederOverlay = styled.div`
   height: 80vh;
   position: absolute;
-  top: 65px;
+  top: 85px;
   left: 0;
   width: 100vw;
   z-index: 0.5;
