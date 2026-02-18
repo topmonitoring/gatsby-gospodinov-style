@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from '../../../static/videobgr01.mp4'
+import Video from '../../../static/videobgr02.mp4'
 import { StyledVideo, HederOverlay,HederTextContainer,StyledH1,StyledP,ButonContainer,StrongWord} from './videobgr.styles';
 import {CustomButtonOuterLink} from '../buttons/CustomButton';
 //import {ButonContainer} from '../buttons/CustomButtonStyles';

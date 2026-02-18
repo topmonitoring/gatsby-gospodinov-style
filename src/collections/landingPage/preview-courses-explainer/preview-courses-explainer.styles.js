@@ -63,6 +63,7 @@ font-size: 35px;
 color: black;
 padding: 20px;
 text-align: center;
+margin: auto;
 `
 export const Img = styled(GatsbyImage)`
 background-color: green;

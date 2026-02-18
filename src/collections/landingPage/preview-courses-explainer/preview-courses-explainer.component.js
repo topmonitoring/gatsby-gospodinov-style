@@ -11,9 +11,9 @@ const PreviewCoursesFetures = () => {
       <VerticalLine/>
       <FeatureContainer>
       <Feature>Подстригване</Feature>
-      <span>✅Класическо подстригване</span>
-      <span>✅Детско подстригване</span>
-      <span>✅Подстригване тип Fade</span>
+      <span>Класическо подстригване</span>
+      <span>Детско подстригване</span>
+      <span>Подстригване тип Fade</span>
       </FeatureContainer>
     </CourceCard>
     <CourceCard left>
@@ -21,9 +21,9 @@ const PreviewCoursesFetures = () => {
     <VerticalLine/>
       <FeatureContainer>
       <Feature>Брада</Feature>
-      <span>✅Бръснене</span>
-      <span>✅Оформяне на брада</span>
-      <span>✅Кралско Бръснене</span>
+      <span>Бръснене</span>
+      <span>Оформяне на брада</span>
+      <span>Кралско Бръснене</span>
       </FeatureContainer>
     </CourceCard>
     <CourceCard>
@@ -31,11 +31,11 @@ const PreviewCoursesFetures = () => {
     <VerticalLine/>
       <FeatureContainer>
       <Feature>Процедури</Feature>
-      <span>✅Оформяне на вежди</span>
-      <span>✅Кола маска уши/нос</span>
-      <span>✅Маска за лице</span>
-      <span>✅Измиване и изсушаване</span>
-      <span>✅Прилагане на висок клас продукти</span>
+      <span>Оформяне на вежди</span>
+      <span>Кола маска уши/нос</span>
+      <span>Маска за лице</span>
+      <span>Измиване и изсушаване</span>
+      <span>Прилагане на висок клас продукти</span>
       </FeatureContainer>
     </CourceCard>
     </CourceGrid>

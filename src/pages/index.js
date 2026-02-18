@@ -21,7 +21,7 @@ return (
 <TripleTitle hed1={"Какво предлагаме"} hed2={"Нашите Услуги"} />
 <PreviewCoursesFetures/>
 <CustomButtonOuterLink href={"https://www.fresha.com/bg/a/gospodinov-style-plovdiv-ulica-zlatyu-boyadzhiev-3-yfyc8w9e?pId=1473395"}>Запази час</CustomButtonOuterLink>
-<TripleTitle hed1={"Повече за нас"} hed2={"Екипа ни"} />
+<TripleTitle hed2={"Екипа ни"} />
 <About/>
 <CustomButtonOuterLink href={"https://www.fresha.com/bg/a/gospodinov-style-plovdiv-ulica-zlatyu-boyadzhiev-3-yfyc8w9e?pId=1473395"}>Запази час</CustomButtonOuterLink>
 <TripleTitle hed1={"Хора които ни се довериха"} hed2={"Нашите Kлиенти"}/>

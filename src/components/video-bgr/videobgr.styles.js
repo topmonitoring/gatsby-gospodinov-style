@@ -116,6 +116,7 @@ export const StyledP=styled.p`
 export const ButonContainer=styled.div`
     grid-area: button;
     display: flex;
+    margin:0px 0px -40px;
     justify-content: space-between;
     @media screen and (max-width: 460px) {
       flex-direction: column;
