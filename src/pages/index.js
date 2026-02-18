@@ -18,17 +18,17 @@ return (
   <Layout>
 <VideoBaground/>
 <BrandLogos/>
-<TripleTitle hed1={"Какво предлагаме"} hed2={"Нашите Услуги"} />
+<TripleTitle hed2={"Нашите Услуги"} />
 <PreviewCoursesFetures/>
 <CustomButtonOuterLink href={"https://www.fresha.com/bg/a/gospodinov-style-plovdiv-ulica-zlatyu-boyadzhiev-3-yfyc8w9e?pId=1473395"}>Запази час</CustomButtonOuterLink>
 <TripleTitle hed2={"Екипа ни"} />
 <About/>
 <CustomButtonOuterLink href={"https://www.fresha.com/bg/a/gospodinov-style-plovdiv-ulica-zlatyu-boyadzhiev-3-yfyc8w9e?pId=1473395"}>Запази час</CustomButtonOuterLink>
-<TripleTitle hed1={"Хора които ни се довериха"} hed2={"Нашите Kлиенти"}/>
+<TripleTitle hed2={"Нашите Kлиенти"}/>
 <ReviewSection/>
-<TripleTitle hed1={"Научи повече"} hed2={"Често задавани въпроси"} />
+<TripleTitle hed2={"Често задавани въпроси"} />
 <FAQSection/>
-<TripleTitle hed1={"Заповядайте при нас"} hed2={"Златю Бояджиев №3"} />
+<TripleTitle hed2={"Златю Бояджиев №3"} />
 <MyMap/>
 <CustomButtonOuterLink href={"https://www.fresha.com/bg/a/gospodinov-style-plovdiv-ulica-zlatyu-boyadzhiev-3-yfyc8w9e?pId=1473395"}>Запази час</CustomButtonOuterLink>
   </Layout>

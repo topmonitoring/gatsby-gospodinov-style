@@ -72,12 +72,12 @@ flex-direction: ${(props) => props.variant};
 
 
 ${({ variant }) =>
-    variant == 'left' && css`
+    variant === 'left' && css`
     flex-direction: row-reverse;
     `
   }
   ${({ variant }) =>
-    variant == 'right' && css`
+    variant === 'right' && css`
     flex-direction: row row-reverse;
     `
   }
