@@ -9,7 +9,7 @@ export const About = () =>(
   <br/>
 <TripleTitle hed2="Петър Господинов"></TripleTitle>
     <StyledAboutGrid variant="right">
-    <StaticImage src="../../../static/aboutImg.jpg" alt="peofile pick Petur" width={400} height={400} style={{borderRadius:"900px",margin:"25px"}}/>
+    <StaticImage src="../../../static/aboutImg001.jpg" alt="peofile pick Petur" width={400} height={400} style={{borderRadius:"900px",margin:"25px"}}/>
     <StyledAboutinfo>Аз съм Петър Господинов от Пловдив, роден 1997 година, основател и собственик на Gospodinov Style .
     <br/>
         <br/> Една моя 10-годишна мечта превърната в реалност .<br/>
